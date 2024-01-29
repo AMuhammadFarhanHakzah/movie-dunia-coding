@@ -62,3 +62,24 @@
     align-items: center;
     text-align: center;
 }
+.card-content:hover{
+    box-shadow: 10px 10px 10px rgba(0, 26, 255, 0);
+}
+
+.overview{
+
+    position: absolute;
+    width: 15.5em;
+    visibility: hidden;
+    height: 21.5em;
+    overflow:scroll;
+    
+}
+
+.card-content:hover .card-info{
+    visibility: hidden;
+}
+
+.card-content:hover .overview{
+    visibility: visible;
+}
